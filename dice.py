@@ -1,7 +1,6 @@
 import random
 dice = random.randint(1, 6)
-y = dice
-re = input('Press Y to roll again')
+
 if dice == 1:
     print("[-----]")
     print("[     ]")
